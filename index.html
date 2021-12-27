@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Sanctuss</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script type="script"></script>
+    <link rel="segundaPage" href="segundaPage/index.html"/>
+   
+    
+</head>
+
+<body> 
+    <nav class="navbar navbar-dark bg-custom-2">
+        <img src="img/cinema.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    
+  </a>
+        <b class="navbar-brand" >Film Sanctus</b> 
+        
+        
+  </a>
+      </nav>
+      
+   <main class="main">
+       <div class="main-child">
+
+      <h1>Aqui você encontra filmes católicos.</h1> 
+      <br>
+      
+ 
+      <br>
+      <h2>Assista onde quiser. Cancele quando quiser.</h2>
+      <br>
+      
+      <form class="form-cta" name="formuser">
+          <input type="text " placeholder="insira seu e-mail" id="email" name="email">
+          <button onclick="return validar()" name="email" type="submit" style="cursor:pointer;"> Começar</button>
+           
+          <br> 
+           
+      
+                   
+          <script>  function validar() {
+ 
+            var email = formuser.email.value;
+            
+          
+                if(email.indexOf('luana@gmail.com') == -1 || email == " ") {
+                    alert('Preencha o campo email');
+                    formuser.email.focus();
+                         return false;
+            }
+          }
+        </script>
+
+       
+<body>
+
+
+    </div>
+
+      <div class="gradient" ></div>
+   </main>
+</body>
+
+</html>
